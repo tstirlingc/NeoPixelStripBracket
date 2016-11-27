@@ -35,6 +35,7 @@ outsideY = insideY;
 outsideZ = backThickness+insideZ+topThickness+topSupportZ;
 captureX = (outsideX - gapX)/2.0;
 
+rotate(a=[90,0,0])
 bracket();
 
 module bracketBase() {
